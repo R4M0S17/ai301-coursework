@@ -1,4 +1,4 @@
-I contributed a new feature to EcoTrace, an open source Python tool that measures the carbon footprint of code. I built an example and documentation showing developers how to correctly measure energy and CPU usage for Polars, a popular and fast data processing library.
+I contributed a new example and documentation to EcoTrace, an open source Python tool that measures the carbon footprint of code. I built an example and documentation showing developers how to correctly measure energy and CPU usage for Polars, a popular and fast data processing library.
 
 My pull request was reviewed and merged into the main project by the maintainer, who called it an excellent implementation with strong test coverage.
 

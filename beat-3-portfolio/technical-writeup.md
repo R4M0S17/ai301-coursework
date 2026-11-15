@@ -2,9 +2,7 @@
 
 ## Overview
 
-EcoTrace is an open source Python library that measures the carbon footprint and CPU/energy use of your code. You just wrap a function or a block of code, and it tells you how much CO2 it probably produced. The project already had nice examples for things like PyTorch, but it didn't have one for Polars, which is a popular, fast dataframe library. Polars can also run "lazy," meaning you build a query first and it only actually runs later when you call `.collect()`. That's a bit confusing if you don't know how EcoTrace measures time, so issue [#195](https://github.com/Zwony/ecotrace/issues/195) asked for a proper Polars example and a guide about it.
-
-I picked this issue, built a new example file, a test file, and a new documentation section, and opened [PR #251](https://github.com/Zwony/ecotrace/pull/251). The PR is now merged into `main`. The maintainer reviewed it and merged it with a short, friendly comment saying the implementation and test coverage were excellent.
+EcoTrace is an open source Python library that measures the carbon footprint and CPU/energy use of your code. You just wrap a function or a block of code, and it tells you how much CO2 it probably produced. The project already had nice examples for things like PyTorch, but it didn't have one for Polars, which is a popular, fast dataframe library. Polars can also run "lazy," meaning you build a query first and it only actually runs later when you call `.collect()`. That's a bit confusing if you don't know how EcoTrace measures time, so issue [#195](https://github.com/Zwony/ecotrace/issues/195) asked for a proper Polars example and a guide about it. I picked this issue, built a new example file, a test file, and a new documentation section, and opened [PR #251](https://github.com/Zwony/ecotrace/pull/251). The PR is now merged into `main`. The maintainer reviewed it and merged it with a short, friendly comment saying the implementation and test coverage were excellent.
 
 ## What happened
 
